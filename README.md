@@ -1,6 +1,5 @@
-# BitSegments Local Minds
-
-Local Minds is a lightweight, CPU-friendly conversational AI interface built on `llama-cpp-python`. It includes a memory system for personalized, context-aware interactions — even on older hardware.
+#offline-chatbot-flask-llama
+CPU-friendly conversational AI interface built on `llama-cpp-python`. It includes a memory system for personalized, context-aware interactions — even on older hardware.
 
 ##  Features
 
@@ -26,13 +25,6 @@ project/
 └── memory/               # Stores session memories (auto-created)
 ```
 
-##  Installation
-
-```bash
-git clone https://github.com/lynthera/bitsegments_localminds
-cd bitsegments_localminds
-pip install -r requirements.txt
-```
 
 You must have Python 3.10+ installed. CPU usage is default; GPU support can be enabled by changing `n_gpu_layers=-1`.
 
@@ -70,15 +62,12 @@ Install via:
 pip install -r requirements.txt
 ```
 
-##  Screenshot
-
-![Chat interface](images/screenshot.png)
 **Used Google Gemma-2-2B-IT(IQ3_M) Model**
 
 ##  Let's build together
 
 If you have similar projects and would like to work together, contact me. I'd be happy to build something together :)
-Email:beratdurak@bitsegments.com
+Email:suryakumarv20@gmail.com
 
 ##  License
 
