@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Offline Chatbot</title>
-  <script src="/static/assets/index.js" defer></script>
   <link rel="stylesheet" href="/static/assets/index.css" />
+  <script src="/static/assets/index.js" defer></script>
 </head>
 <body>
-  <div class="chatbox">
-    <div id="messages"></div>
-    <input id="messageInput" placeholder="Ask me anything..." />
-    <button onclick="sendMessage()">Send</button>
+  <div class="chat-container">
+    <header class="chat-header">
+      <h1>🤖 AI Chat Assistant</h1>
+      <p>Offline LLM Powered Chatbot</p>
+    </header>
+    <main id="messages" class="chat-messages"></main>
+    <form id="chatForm" class="chat-input">
+      <input id="messageInput" type="text" placeholder="Type your message..." autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
   </div>
 </body>
 </html>
